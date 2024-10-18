@@ -8,11 +8,7 @@ function loadRankingsFromLocalStorage() {
     if (savedRankings) {
         rankings = JSON.parse(savedRankings);
     } else {
-        rankings = [
-            { name: "Taro", score: 95 },
-            { name: "Hanako", score: 90 },
-            { name: "Jiro", score: 85 }
-        ];
+        rankings = [];
     }
 }
 
